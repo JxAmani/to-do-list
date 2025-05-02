@@ -3,11 +3,11 @@ document.addEventListener('DOMContentLoaded', () => {
     // Address Book 
     const nameInput = document.getElementById('name');       // Get the name input 
     const phoneInput = document.getElementById('phone');     // Get the phone number
-    const emailInput = document.getElementById('email');       // Get the email input field
+    const emailInput = document.getElementById('email');       // Get the email input 
     const addContactButton = document.getElementById('add-contact');  // Get the Add Contact button
 
     addContactButton.addEventListener('click', () => {
-        // This function runs when the Add Contact button is clicked.
+                                        // This function runs when the Add Contact button is clicked.
         const name = nameInput.value.trim();       // Get the name, removing extra space by trim
         const phone = phoneInput.value.trim();     // Get the phone number
         const email = emailInput.value.trim();       // Get the email
