@@ -37,7 +37,7 @@ h1,h2{
     background-color: lightsalmon;
     padding: 20px;
     border-radius: 7px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 .name, .phone, .email{
     width: 80%;
@@ -50,7 +50,7 @@ h1,h2{
     background-color: mediumblue;
     color: white;
     padding: 7px;
-    margin-top: 5px;
+    margin-top: 7px;
     cursor: pointer;
 }
 .new-task{
