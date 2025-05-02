@@ -6,7 +6,7 @@ body{
 h1,h2{
     text-align: center;
     color: black;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     text-decoration: underline;
 }
 .adress-book{
@@ -14,7 +14,7 @@ h1,h2{
     padding: 20px;
     border-radius: 7px;
     background-color: lightsalmon;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 #add-contact{
     color: red;
