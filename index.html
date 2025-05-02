@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADRESS BOOK & TO DO LIST</title>
+    <link href="./idex.css" rel="stylesheet">
+</head>
+<body>
+    <h1>ADRESS BOOK & TO DO LIST</h1>
+    <section class="adress-book">
+        <div class="adress-form">
+            <h2>add new contact</h2>
+            <label for="name">name:</label>
+            <input type="text" class="name" id="name" placeholder="Name:" required>
+            <br>
+            <label for="phone">Phone:</label>
+            <input type="tel" class="phone" id="phone" placeholder="Enter phone number:">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" class="email" id="email" placeholder="Enter email:" required>
+            <br>
+            <button class="add-contact" id="add-contact">Add Contact</button>
+        </div>
+    </section>
+    <section class="Places">
+        <h2>Places you've been</h2>
+        <div id="place-form">
+            <input type="text" id="place" placeholder="place-name">
+            <input type="text" id="location" placeholder="Enter location">
+            <input type="date" id="date" placeholder="Enter date">
+            <button class="Add-place" id="add-place-button">Add place</button>
+        </div>
+    </section>
+    <section>
+        <h2>TO-DO-LIST</h2>
+        <div class="task-input">
+            <input type="text" class="new-task" id="new-task" placeholder="Add new task">
+        </div>
+        <ul id="tasks"></ul>
+        <button id="add-task-button">Add Task</button>
+    </section>
+    <script src="./index.js"></script>
+</body>
+</html>
